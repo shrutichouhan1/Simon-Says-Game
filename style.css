@@ -1,0 +1,53 @@
+body{
+    text-align:center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: #333; /* Dark text for visibility */
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 2.5rem;
+    transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Ensure responsiveness if needed */
+}
+
+.red{
+    background-color: #d95980;
+}
+.yellow{
+    background-color: #f3f945;
+}
+.green{
+    background-color: #63aac0;
+}
+.purple{
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white;
+    transition: background-color 0.5s ease; /* Longer flash effect */
+}
+
+.userFlash {
+    background-color: green;
+    transition: background-color 0.5s ease; /* Smooth user flash effect */
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Button enlarges on hover */
+    cursor: pointer; /* Pointer cursor on hover */
+}
